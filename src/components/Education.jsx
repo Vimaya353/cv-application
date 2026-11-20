@@ -16,7 +16,7 @@ function Education() {
 
   if (isEditing) {
     return (
-        <form onSubmit= {handleSubmit}>
+        <form className="section" onSubmit= {handleSubmit}>
             <h2>Education</h2>
 
             <label>
@@ -37,7 +37,7 @@ function Education() {
   }
 
   return (
-    <div>
+    <div className="section">
         <h2>Education</h2>
         <p>School: {info.school}</p>
         <p>Title: {info.title}</p>

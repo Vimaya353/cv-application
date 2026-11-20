@@ -16,7 +16,7 @@ function GeneralInfo() {
 
    if (isEditing) {
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="section" onSubmit={handleSubmit}>
             <h2>General Information</h2>
 
             <label>
@@ -37,7 +37,7 @@ function GeneralInfo() {
    }
 
    return (
-    <div>
+    <div className="section">
         <h2>General Information</h2>
         <p>Name: {info.name}</p>
         <p>Email: {info.email}</p>

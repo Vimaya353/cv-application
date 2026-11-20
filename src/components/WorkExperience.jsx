@@ -16,7 +16,7 @@ function WorkExperience() {
 
     if(isEditing) {
         return (
-            <form onSubmit={handleSubmit}>
+            <form className="section" onSubmit={handleSubmit}>
                <h2>Work Experience</h2>
 
                <label>
@@ -45,7 +45,7 @@ function WorkExperience() {
     }
 
     return (
-        <div>
+        <div className="section">
             <h2>Work Experience</h2>;
             <p>Company: {info.company}</p>
             <p>Position: {info.position}</p>

@@ -1,6 +1,7 @@
 import Education from './components/Education';
 import GeneralInfo from './components/GeneralInfo'
 import WorkExperience from './components/WorkExperience';
+import './styles/Form.css';
 
 function App() {
   return (
