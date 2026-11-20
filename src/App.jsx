@@ -1,3 +1,4 @@
+import Education from './components/Education';
 import GeneralInfo from './components/GeneralInfo'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div>
       <h1>CV Builder</h1>
       <GeneralInfo/>
+      <Education/>
     </div>
   );
 }
